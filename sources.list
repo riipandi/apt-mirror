@@ -1,0 +1,16 @@
+# Debian International
+deb http://deb.debian.org/debian stretch main contrib non-free
+deb http://deb.debian.org/debian stretch-updates main contrib non-free
+deb http://deb.debian.org/debian-security stretch/updates main contrib non-free
+
+# Debian Indonesia
+deb http://kartolo.sby.datautama.net.id/debian stretch main contrib non-free
+deb http://kartolo.sby.datautama.net.id/debian stretch-updates main contrib non-free
+deb http://kartolo.sby.datautama.net.id/debian-security stretch/updates main contrib non-free
+
+# Ubuntu Indonesia
+deb http://kartolo.sby.datautama.net.id/ubuntu bionic main restricted universe multiverse
+deb http://kartolo.sby.datautama.net.id/ubuntu bionic-updates main restricted universe multiverse
+deb http://kartolo.sby.datautama.net.id/ubuntu bionic-security main restricted universe multiverse
+deb http://kartolo.sby.datautama.net.id/ubuntu bionic-proposed main restricted universe multiverse
+deb http://kartolo.sby.datautama.net.id/ubuntu bionic-backports main restricted universe multiverse

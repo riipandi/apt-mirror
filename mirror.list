@@ -1,0 +1,42 @@
+# file: /etc/apt/mirror.list
+
+set base_path          /mnt/d/apt-mirror
+#set base_path          /var/spool/apt-mirror
+set mirror_path        $base_path/mirror
+set skel_path          $base_path/skel
+set var_path           $base_path/var
+set postmirror_script  $var_path/postmirror.sh
+set run_postmirror     1
+set nthreads           20
+set limit_rate         100m
+set _tilde             0
+set unlink             0
+
+# Debian 64bit
+#deb-amd64 http://kartolo.sby.datautama.net.id/debian stretch main contrib non-free
+#deb-amd64 http://kartolo.sby.datautama.net.id/debian stretch-updates main contrib non-free
+#deb-amd64 http://kartolo.sby.datautama.net.id/debian-security stretch/updates main contrib non-free
+
+# Debian 32bit
+#deb-i386 http://kartolo.sby.datautama.net.id/debian stretch main contrib non-free
+#deb-i386 http://kartolo.sby.datautama.net.id/debian stretch-updates main contrib non-free
+#deb-i386 http://kartolo.sby.datautama.net.id/debian-security stretch/updates main contrib non-free
+
+# Ubuntu 64bit
+deb-amd64 http://kartolo.sby.datautama.net.id/ubuntu bionic main restricted universe multiverse
+deb-amd64 http://kartolo.sby.datautama.net.id/ubuntu bionic-updates main restricted universe multiverse
+deb-amd64 http://kartolo.sby.datautama.net.id/ubuntu bionic-security main restricted universe multiverse
+deb-amd64 http://kartolo.sby.datautama.net.id/ubuntu bionic-proposed main restricted universe multiverse
+deb-amd64 http://kartolo.sby.datautama.net.id/ubuntu bionic-backports main restricted universe multiverse
+
+# Ubuntu 32bit
+deb-i386 http://kartolo.sby.datautama.net.id/ubuntu bionic main restricted universe multiverse
+deb-i386 http://kartolo.sby.datautama.net.id/ubuntu bionic-updates main restricted universe multiverse
+deb-i386 http://kartolo.sby.datautama.net.id/ubuntu bionic-security main restricted universe multiverse
+deb-i386 http://kartolo.sby.datautama.net.id/ubuntu bionic-proposed main restricted universe multiverse
+deb-i386 http://kartolo.sby.datautama.net.id/ubuntu bionic-backports main restricted universe multiverse
+
+# Cleaning up
+clean http://kartolo.sby.datautama.net.id/debian
+clean http://kartolo.sby.datautama.net.id/debian-security
+clean http://kartolo.sby.datautama.net.id/ubuntu

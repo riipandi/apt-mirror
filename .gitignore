@@ -1,0 +1,16 @@
+mirror/*
+!mirror/.gitkeep
+
+skel/*
+!skel/.gitkeep
+
+var/*
+!var/clean.sh
+!var/postmirror.sh
+!var/post-debian.sh
+!var/post-ubuntu.sh
+
+**/*.gz
+**/*.zip
+**/*.zip
+**/*.iso
