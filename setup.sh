@@ -25,12 +25,12 @@ server {
     listen 80 default_server;
     server_name _;
     index index.html;
-    root /var/www;
     autoindex on;
 
     location / { try_files \$uri \$uri/ =404; }
     location ~ /\.ht { deny all; }
 
+    root /var/spool/apt-mirror/mirror/;
     location /ubuntu { alias /var/spool/apt-mirror/mirror/kartolo.sby.datautama.net.id/ubuntu; }
     location /debian { alias /var/spool/apt-mirror/mirror/kartolo.sby.datautama.net.id/debian; }
     location /debian-security { alias /var/spool/apt-mirror/mirror/kartolo.sby.datautama.net.id/debian-security; }
