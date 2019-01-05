@@ -1,5 +1,6 @@
 mirror/*
 !mirror/.gitkeep
+!mirror/index.html
 
 skel/*
 !skel/.gitkeep

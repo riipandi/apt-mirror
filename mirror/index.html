@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="all, noindex, nofollow">
+    <meta name="googlebot" content="all, noindex, nofollow">
+    <link rel="icon" type="image/x-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABR1BMVEUAAADvnyLzniTooi7voCPvoCPwoST0nyDwoCPxnyL/qgDyoSLvnyTzoiP1ox/woSLqqivwoCPwoCPwnyLwnyPwoifxnyTwoCTwoCPwnyPuoiLwoSLwoCTvoCTxoSTzniTyoSjxnyLxnyP0myHmmRrvoCPxoCPjqhzwoCPwoCTwoSPwoCPwoCPvoCTvoCPwnyPwoCTvoSPwoCTxnyPwoCPwnyPxoCLvoSL/qivwoCPxoCPwoCPwoCPyoCPwoCPvoCPyoSLwoCPxnyLwoCPxnyLwoCPtniPwoCPunyLwoCTwoCPwoSTvoCX/nyDwoSPwoCTvoSPwoCPwoCLypibyniPwoCPwoSPyoSTtpCTwoCPwoCPrnSfwoCPwnyLwoCPwoCPwoCPxoCPynyDwoSTwoSPuoiLwoCLwnyTynSHwoCPwoCPwoCMAAACLgF6TAAAAa3RSTlMAcCoLg5N6GO4lAyZAFhlEDGapyGUhXe3sqB53VoFcFRNaWBcK5uUJ+tdXmflOXph5krpI97hZbwa3wv62O/2RTO81+ErZHdYtI/yHPgiaRl/7hhQ64eA5HPPyGjN4zMa7bihkqjxDiCfc25nru3cAAAABYktHRACIBR1IAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJTUUH4gwTEhI7xlnrsAAAAUdJREFUKM+d0ldbwjAUBuDDLhWlFES0roK7DnCBE7eAAgruiSBDz/+/Nym0pYXc+F2cpnmfNOdJCmCKzQb9Y3fQ6nTS6rD3sMtFq9ttjE3xcF5SeZ6UAc7T+3XfoDYa8vfdXgiIwaAYEizTw6LaSngE1UTCaqujYx3mJW6cNI16JgAmOYnX109Ng4xdiUIsZtpgZrab5+Yt+0cNW1hEXLKwouvyyirimiFxJSHAuqEbm4hbICSUuMrbUjIFO4i7e7riPqSSUrTryBEPQoeaYtqy9xHi8UnotKN4ZmH+nPpFRy95E2ay4MsRv2pr7hqyGR3zhUgR4CanNX9LDr0YKeS1qy6V6ePuvq0Pj/StXLJe+tMz1ZdXxu8G3jcSL0vh/eOzUvlictVPUmVy7ZukxuR6gKTOZFkhkf+7GhrNZoOt0Pr5bZkm/gC4WlyqqnyCMQAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0xMi0xOVQxNzoxODo1OSswMTowMN/V1S0AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTgtMTItMTlUMTc6MTg6NTkrMDE6MDCuiG2RAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAABJRU5ErkJggg==">
+    <title>Semacam mirror repository</title>
+  </head>
+  <body>
+    <h1>Welcome to apt.aris.web.id!</h1>
+
+    <p>This service provides mirrors for the following archive repositories:</p>
+    <ul>
+      <li><code>/ubuntu/</code></li>
+      <li><code>/debian/</code></li>
+      <li><code>/debian-security/</code></li>
+    </ul>
+
+    <p>Supported distribution:</p>
+    <ul>
+      <li>Debian Stretch</li>
+      <li>Ubuntu Bionic Beaver</li>
+    </ul>
+
+    <p>To use it with a sufficiently recent apt, you for instance can put:</p>
+    <pre>
+deb http://apt.aris.web.id/debian stretch main contrib non-free
+deb http://apt.aris.web.id/debian stretch-updates main contrib non-free
+deb http://apt.aris.web.id/debian-security stretch/updates main contrib non-free
+</pre>
+
+    <p>or for Ubuntu:</p>
+    <pre>
+deb http://apt.aris.web.id/ubuntu bionic main restricted universe multiverse
+deb http://apt.aris.web.id/ubuntu bionic-updates main restricted universe multiverse
+deb http://apt.aris.web.id/ubuntu bionic-security main restricted universe multiverse
+deb http://apt.aris.web.id/ubuntu bionic-proposed main restricted universe multiverse
+deb http://apt.aris.web.id/ubuntu bionic-backports main restricted universe multiverse
+</pre>
+
+    <p>in your <code>sources.list</code>.</p>
+
+    <p>This service is also available on HTTPS,so with the <code>apt-transport-https</code>.</p>
+
+    <p>
+      Get free $100 credits from <a href="//www.digitalocean.com/?refcode=5c4f2a9f0908">DigitalOcean</a>.
+    </p>
+
+    <p><hr /></p>
+    <a href="//twitter.com/share" class="twitter-share-button" data-url="http://apt.aris.web.id/" data-text="Another Linux repository mirror!">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </body>
+</html>
